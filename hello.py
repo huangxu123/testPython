@@ -1,23 +1,4 @@
-print('Hello World!')
-
-s1 = (1,2,3,'hello',4,'world',True,5)
-s2 = [5,4,3,'hello',2,'world',False,1]
-print(s1,type(s1))
-print(s2,type(s2))
-
-s3 = (1,s1,s2)
-print(s3,type(s3))
-
-s2[1]=11
-print(s2[1])
-
-#s1[1]=12
-#print(s1[1])
-
-s4='abcdefg'
-print(s4[2:6:2])
-
-i=1
+﻿i=1
 
 if i>0:
 	x=1
