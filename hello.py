@@ -1,5 +1,6 @@
 ﻿i=1
 
+#if语句
 if i>0:
 	x=1
 	y=2
@@ -11,25 +12,15 @@ else:
 	y=6
 print(x,"=====",y)
 
-if x==1:
-	print('x=',x)
-	if y==2:
-		print('hello')
-elif x==3:
-	print('y=',y)
-else:
-	print('else')
+#for循环
+for i in range(10):
+	j=i+1
 	
-	
-for i in [1,2,3,4]:
-	print(i)
-	
-j = range(210)
 print(j)
 
-for i in range(10):
-	print(i)
-	
+#定义函数
+#当没有return, 或者return后面没有返回值时，函数将自动返回None
+#None多用于关键字参数传递的默认值
 def add_1(a,b):
 	c=a+b
 	print(c)
@@ -45,7 +36,8 @@ a = 1
 def change_integer(a):
     a = a + 1
     return a
-
+	
+#整数变量a不发生变化
 print(change_integer(a))
 print(a)
 
@@ -57,5 +49,5 @@ def change_list(b):
     return b
 
 print(change_list(b))
-
+#原来的表b发生变化
 print(b)
