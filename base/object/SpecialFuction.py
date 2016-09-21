@@ -1,10 +1,37 @@
-ni=[1,2,3,4,5,6,7]
-
-class lll(object):
+class Man(object):
     sex='man'
 
-#print dir(ni)
+wo=Man()
+#dir() function
+#print(dir(wo))
 
-wo=lll()
-print(dir(wo))
-#print help((list))
+#help() function
+#print(help(list))
+
+ni=[8,1,2,4,3,5,9,6,7]
+print('=========count=======')
+print(ni.count(2))
+print('=========index=======')
+print(ni.index(4))
+print('=========len=======')
+print(len(ni))
+
+ni.append(8)
+print('=========list=======')
+print(ni)
+print(len(ni))
+
+ni.sort()
+print('=========pop=======')
+print(ni.pop)
+print(len(ni))
+
+print('=========remove=======')
+ni.remove(1)
+print(ni)
+print(len(ni))
+
+print('=========insert=======')
+ni.insert(0,1)
+print(ni)
+print(len(ni))
