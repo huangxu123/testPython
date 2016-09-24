@@ -1,0 +1,3 @@
+iPhone, ios, 10
+Nokia, WP, 10
+HTC, android, 7

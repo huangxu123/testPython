@@ -33,7 +33,7 @@ for key in dic:
 #print('======dic.values()===============')
 #print(dic.values())
 print('======dic.items()===============')
-print(dic.items())
+
 print('======dic.clear()===============')
 #dic.clear()
 
