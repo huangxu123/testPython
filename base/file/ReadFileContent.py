@@ -6,10 +6,10 @@
 #    HTC, android, 7
 #
 
-f=open("test.txt","r")
+#f=open("test.txt","r")
 
 #read all bytes 
-content=f.read()
+#content=f.read()
 
 #read one line
 #content=f.readline()
@@ -18,5 +18,8 @@ content=f.read()
 #['iPhone, ios, 10'\n,'Nokia, WP, 10\n','HTC, android, 7\n']
 #content=f.readlines()
 
-print(content)
-f.close()
+def readFile():
+	f=open("test.txt","r")
+	content=f.read()
+	print(content)
+	f.close()

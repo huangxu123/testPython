@@ -11,6 +11,6 @@ def printYear(year):
 	else:
 		print(year,'年不是闰年！')
 
-	
 year=2016
+print('hello')
 printYear(year)
